@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.ctctui-page-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1280px;
+}
+
+.collapsibleGroup .closed-caret {
+  display: inline-block;
+}
+.collapsibleGroup .open-caret {
+  display: none;
+}
+.collapsibleGroup.is-open .closed-caret {
+  display: none;
+}
+.collapsibleGroup.is-open .open-caret {
+  display: inline-block;
+}
+.collapsibleGroup .collapsibleGroup-body {
+  display: none;
+}
+.collapsibleGroup.is-open .collapsibleGroup-body {
+  display: block;
+}
+.collapsibleGroup-heading a {
+  color: #394856 !important;
+  font-size: 14.7px;
+}
+.SiteNav-inner { z-index: 100000 }
+.select-all-checkbox {
+  display: inline-block;
+
+}
